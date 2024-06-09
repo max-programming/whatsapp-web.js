@@ -83,7 +83,7 @@ client.on('ready', () => {
 });
 
 client.on('message', msg => {
-    if (msg.body == '!ping') {
+    if (msg.body === '!ping') {
         msg.reply('pong');
     }
 });
